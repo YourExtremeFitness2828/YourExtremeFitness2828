@@ -1,42 +1,45 @@
 import React, { Fragment } from "react";
-
+import "./landingSection.css";
 const LandingSection = () => {
   return (
     <Fragment>
       {/* <!-- ======= Hero Section ======= --> */}
-      <section id="hero" class="d-flex flex-column justify-content-center">
-        <div class="container">
-          <div class="logo-company-name">
-            <div class="img">
+      <section
+        id="hero"
+        className="d-flex flex-column justify-content-center  "
+      >
+        <div className="container bg-hero">
+          <div className="logo-company-name">
+            <div className="img">
               <img
                 src={require("../../img/logo-2.PNG")}
                 alt="no logo"
-                class="img-fluid text"
+                className="img-fluid text"
               />
             </div>
             <div>
-              <h1 class="text">| Your Extreme Fitness |</h1>
+              <h1 className="text">| Your Extreme Fitness |</h1>
             </div>
           </div>
           <p>
             <span>" We'er your life style partner..."</span>
           </p>
-          <div class="social-links">
-            <a href="#" class="facebook text">
-              <i class="bx bxl-facebook"></i>
+          <div className="social-links">
+            <a href="#" className="facebook text">
+              <i className="bx bxl-facebook"></i>
             </a>
             <a
               href="https://www.instagram.com/yourextremefitness/"
-              class="instagram text"
+              className="instagram text"
             >
-              <i class="bx bxl-instagram"></i>
+              <i className="bx bxl-instagram"></i>
             </a>
             <a
               href=" https://wa.me/917902828908"
-              class="instagram text"
+              className="instagram text"
               target="_blank"
             >
-              <i class="fab fa-whatsapp"></i>
+              <i className="fab fa-whatsapp"></i>
             </a>
           </div>
         </div>

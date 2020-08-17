@@ -5,14 +5,14 @@ const Footer = () => {
     <Fragment>
       {/* <!-- ======= Footer ======= --> */}
       <footer id="footer">
-        <div class="container">
-          {/* <!-- <div class="copyright">
+        <div className="container">
+          {/* <!-- <div className="copyright">
           &copy; Copyright <strong><span>MyResume</span></strong
           >. All Rights Reserved
         </div> --> */}
-          <div class="credits">
-            <a href="https://yourextremefitness.com/" class="text">
-              yourextremefitness
+          <div className="credits">
+            <a href="https://yourextremefitness.com/" className="text">
+              | YourExtremeFitness |
             </a>
           </div>
         </div>

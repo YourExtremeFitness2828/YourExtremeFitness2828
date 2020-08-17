@@ -1,20 +1,44 @@
-import React, { Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import { Button } from "reactstrap";
 
 const Header = ({ handleToggleSideBar }) => {
+  const [isShopMobileNav, setIsShowMobileNav] = useState(false);
+
+  // Function.
+  const toggleSideMobileNav = () => {
+    setIsShowMobileNav((prevState) => !prevState);
+  };
+
   return (
     <Fragment>
-      <header id="header" className="d-flex flex-column justify-content-center">
+      {/* <!-- ======= Mobile nav toggle button ======= --> */}
+      <button
+        type="button"
+        className="mobile-nav-toggle  text"
+        onClick={toggleSideMobileNav}
+      >
+        {isShopMobileNav ? (
+          <i className="fas fa-times text"></i>
+        ) : (
+          <i className="fas fa-bars text"></i>
+        )}
+      </button>
+      <header
+        id="header"
+        className="d-flex flex-column justify-content-center   "
+        style={isShopMobileNav ? { left: "0" } : {}}
+      >
         <nav className="nav-menu">
           <ul>
             <li className="active">
               <a href="#hero">
-                <i className="bx bx-home"></i> <span>Home</span>
+                <i className="fas fa-home"></i>
+                <span>Home</span>
               </a>
             </li>
             <li>
               <a href="#about">
-                <i className="bx bx-user"></i> <span>About</span>
+                <i className="fas fa-user"></i> <span>About</span>
               </a>
             </li>
             <li>

@@ -5,16 +5,12 @@ const Contact = () => {
   return (
     <Fragment>
       {/* <!-- Contact --> */}
-      <section
-        id="contact"
-        class="bg-fixed overlay"
-        style={{ backgroundImage: " url(./assets/img/contact-us-2.JPG)" }}
-      >
+      <section id="contact" class="bg-fixed overlay">
         <div class="container">
           <div class="row justify-content-end">
             <div class="col-lg-5">
-              <div class="section-content bg-white p-5 shadow">
-                <div class="text-center section-title">
+              <div class="section-content shadow bg-form">
+                <div class="text-center section-title  ">
                   <h2>Contact Us</h2>
                 </div>
                 <form method="post" name="contact-us" action="">
