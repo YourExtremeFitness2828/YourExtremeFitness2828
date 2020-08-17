@@ -1,0 +1,86 @@
+/* .boxed-page {
+  position: relative;
+  border-color: #ededed;
+  background-color: #fff;
+}
+.boxed-page .section-padding {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+@media (min-width: 992px) {
+  .boxed-page .section-padding {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .boxed-page {
+    margin: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    height: 100%;
+  }
+  .boxed-page {
+    padding-top: 100px;
+  }
+} */
+
+/*===============================
+=            OVERLAY            =
+===============================*/
+
+/*===================================
+  =            RESERVATION            =
+  ===================================*/
+#contact {
+  width: 100%;
+  /* height: 100vh; */
+  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
+  background-size: cover;
+  position: relative;
+  /* height: 500px; */
+  /* margin: 30px 30px 100px 30px; */
+}
+
+#contact:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.178);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 992px) {
+  #contact .section-content {
+    border: 1px solid rgba(0, 128, 0, 0.253);
+    border-radius: 10px;
+    /* margin-top: 0px;
+       */
+    /* position: absolute;
+      top: 0px;
+      right: 30px;
+      border-radius: 5px; */
+
+    /* padding-bottom: 0px; */
+  }
+}
+/*=====  End of RESERVATION  ======*/
+
+/* in mobile */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #contact {
+    height: 600px;
+    margin: 0;
+  }
+}
+
+/* in tablet */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
