@@ -11,7 +11,7 @@ const Footer = () => {
           >. All Rights Reserved
         </div> --> */}
           <div className="credits">
-            <a href="https://yourextremefitness.com/" className="text">
+            <a href="http://yourextremefitness.com/" className="text">
               | YourExtremeFitness |
             </a>
           </div>

@@ -53,7 +53,7 @@ const Contact = () => {
                     </div>
                     <div class="col-md-12 text-center">
                       <button
-                        class="btn btn-primary btn-shadow btn-lg"
+                        class="btn btn-primary btn-shadow btn-sm"
                         type="submit"
                         name="submit"
                       >

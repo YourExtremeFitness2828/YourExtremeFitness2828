@@ -49,7 +49,7 @@ const Services = () => {
                   <i class="fas fa-spa"></i>
                 </div>
                 <h4>
-                  <a href="">Massage Tharapy & Mindfulness</a>
+                  <a href="">Massage Therapy & Mindfulness</a>
                 </h4>
                 <p>Your smile is the reason for many others to smile</p>
               </div>
