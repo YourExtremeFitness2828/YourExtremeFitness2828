@@ -12,6 +12,7 @@ const Header = ({ handleToggleSideBar }) => {
   return (
     <Fragment>
       {/* <!-- ======= Mobile nav toggle button ======= --> */}
+
       <button
         type="button"
         className="mobile-nav-toggle  text"
