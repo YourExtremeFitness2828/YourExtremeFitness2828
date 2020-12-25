@@ -24,7 +24,7 @@ const LandingSection = () => {
           </div>
           <div className="text-center">
             <p>
-              <span>" We'er your life style partner..."</span>
+              <span>" We're your life style partner..."</span>
             </p>
             <div className="social-links">
               <a href="#" className="facebook text">
