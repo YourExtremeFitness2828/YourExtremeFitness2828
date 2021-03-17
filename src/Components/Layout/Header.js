@@ -33,13 +33,13 @@ const Header = ({ handleToggleSideBar }) => {
           <ul>
             <li className="active">
               <a href="#hero">
-                <i className="fas fa-home"></i>
+              <i class="bx bx-home"></i> <span>Home</span>
                 <span>Home</span>
               </a>
             </li>
             <li>
               <a href="#about">
-                <i className="fas fa-user"></i> <span>About</span>
+              <i class="bx bx-user"></i> <span>About</span>
               </a>
             </li>
             <li>
