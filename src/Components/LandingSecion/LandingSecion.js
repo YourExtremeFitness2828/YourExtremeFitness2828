@@ -41,14 +41,17 @@ const LandingSection = () => {
                 className="instagram text"
                 target="_blank"
               >
-                <i className="fab fa-whatsapp"></i>
+              <i className="bx bxl-whatsapp"></i>
+                {/* <i className="fab fa-whatsapp"></i> */}
               </a>
               <a
                 href="https://www.pinterest.com/yourextremefitness"
                 className="instagram text"
                 target="_blank"
               >
-              <i class="fab fa-pinterest-p"></i>
+              <i className="bx bxl-pinterest"></i>
+
+              {/* <i class="fab fa-pinterest-p"></i> */}
               </a>
             </div>
           </div>
