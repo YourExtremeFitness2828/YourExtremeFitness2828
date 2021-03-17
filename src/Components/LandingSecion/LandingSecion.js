@@ -27,7 +27,7 @@ const LandingSection = () => {
               <span>" We're your life style partner..."</span>
             </p>
             <div className="social-links">
-              <a href="#" className="facebook text">
+              <a href="https://www.facebook.com/yourextremefitness" className="facebook text">
                 <i className="bx bxl-facebook"></i>
               </a>
               <a
@@ -42,6 +42,13 @@ const LandingSection = () => {
                 target="_blank"
               >
                 <i className="fab fa-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.pinterest.com/yourextremefitness"
+                className="instagram text"
+                target="_blank"
+              >
+              <i class="fab fa-pinterest-p"></i>
               </a>
             </div>
           </div>
